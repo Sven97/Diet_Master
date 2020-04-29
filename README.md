@@ -38,5 +38,3 @@ Check out [workflow.md](docs/workflow.md) for more details.
 
 *TODO*...
 
-@zhouyanx
-
