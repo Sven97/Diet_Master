@@ -2,7 +2,7 @@
 
 A web-based application intend to make intelligent recipe recommendation and help the users to balance the diets.
 
-## Notice before Development
+## ⚠Notice before Development
 
 ### Use `dev` branch for development
 
@@ -37,7 +37,7 @@ If you are using IDEs from JetBrains such as PyCharm. Please follows the followi
 3. The popup windows "Merge Revisions" provides 3 columns indicates "Local Changes", "Result" and "Changes from Server" from the left to the right. You can make change decisions accordingly.
 4. Conflicts resolved and push successfully!
 
-## Configuration and Installation
+## ⚙Configuration and Installation
 
 1. Make sure [Git](https://git-scm.com/downloads) is installed in your computer.
 
