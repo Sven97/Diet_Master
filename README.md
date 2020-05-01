@@ -1,9 +1,11 @@
 # Diet Master
 
 ##Attention!!!
-Please make all the modification in branch ***dev***
+
+Please make all the modification in branch `dev`
 
 Do NOT merge to the master branch before code review 
+
 ```
 # switch to dev brach
 git switch dev
