@@ -1,5 +1,14 @@
 # Diet Master
 
+##Attention!!!
+Please make all the modification in branch ***dev***
+
+Do NOT merge to the master branch before code review 
+```
+# switch to dev brach
+git switch dev
+```
+
 ## `git pull` Before Starting and Committing!!!
 
 Don't forget to execute `git pull` in the `master` branch before starting coding and committing to the github.  
@@ -37,5 +46,3 @@ Check out [workflow.md](docs/workflow.md) for more details.
 ## Code Style
 
 *TODO*...
-FisherRUA 1
-@zhouyanx
