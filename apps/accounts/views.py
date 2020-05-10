@@ -60,10 +60,12 @@ def register_view(request):
 
         if User.objects.filter(username=user_name).count():
             error_message = "User name has already exited."
+        elif User.objects.filter(email=user_email).count():
+            error_message = "Email name has already exited."
         elif pwd_1 != pwd_2 or (not pwd_1) or (not pwd_2):
             error_message = "Passwords do not match. Please type again."
         elif not (7 < len(pwd_1) < 18) or pwd_1.isdigit():
-            error_message = "Password must contain at least 8 characters and can't be entirely"
+            error_message = "Password should be within 8 to 17 characters and can't be entirely numeric!"
         elif not is_email(user_email):
             error_message = "The email address is invalid!"
         else:
